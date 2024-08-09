@@ -16,75 +16,75 @@ int main(void)
 
 	int e;
 	e = a / b;
-	printf("e = %d \n",e );//è®¡ç®—ç»“æžœå°†å‡ºçŽ°0,æ˜¯å› ä¸º%dæ˜¯å–åè¿›åˆ¶æ•´æ•°
+	printf("e = %d \n",e );//¼ÆËã½á¹û½«³öÏÖ0,ÊÇÒòÎª%dÊÇÈ¡Ê®½øÖÆÕûÊý
 
 	int f;
-	f = a % b;//%è¡¨ç¤ºå–ä½™æ•°
-	printf("f = %d \n", f);//è®¡ç®—ç»“æžœå°†å‡ºçŽ°1,å› ä¸ºå•†æ•°ä¸º0ï¼Œä½™æ•°ä¸º1ï¼Œæ‰€ä»¥å–1
+	f = a % b;//%±íÊ¾È¡ÓàÊý
+	printf("f = %d \n", f);//¼ÆËã½á¹û½«³öÏÖ1,ÒòÎªÉÌÊýÎª0£¬ÓàÊýÎª1£¬ËùÒÔÈ¡1
 
 	int g , h , i;
 	h = 100;
 	i = 20;
 	g = i % h;
-	printf("g= %d \n", g);//è®¡ç®—ç»“æžœå‡ºçŽ°20,å› ä¸ºå•†æ•°ä¸º0ï¼Œä½™æ•°ä¸º20ï¼Œæ‰€ä»¥å–20
+	printf("g= %d \n", g);//¼ÆËã½á¹û³öÏÖ20,ÒòÎªÉÌÊýÎª0£¬ÓàÊýÎª20£¬ËùÒÔÈ¡20
 
 	int j;
-	j = a++;//a++æŒ‡aåœ¨è¿›è¡Œè¿ç®—åŽè‡ªå¢ž1,è¿™é‡Œæ˜¯å°†aèµ‹å€¼ç»™cï¼Œç„¶åŽaå†è‡ªå¢ž1
+	j = a++;//a++Ö¸aÔÚ½øÐÐÔËËãºó×ÔÔö1,ÕâÀïÊÇ½«a¸³Öµ¸øc£¬È»ºóaÔÙ×ÔÔö1
 	printf("j = %d \n", j);
 
 	int k;
-	k = ++a;//è¿™é‡Œè¾“å‡ºäº†kç­‰äºŽ3ï¼Œæ˜¯å› ä¸ºå‰é¢aè¿›è¡Œè¿ç®—å®Œè‡ªå¢ž1ï¼Œç„¶åŽè¿™é‡Œaåœ¨è¿›è¡Œè¿ç®—å‰è‡ªå¢ž1,æ‰€ä»¥kèµ‹å€¼ä¸º3
+	k = ++a;//ÕâÀïÊä³öÁËkµÈÓÚ3£¬ÊÇÒòÎªÇ°Ãæa½øÐÐÔËËãÍê×ÔÔö1£¬È»ºóÕâÀïaÔÚ½øÐÐÔËËãÇ°×ÔÔö1,ËùÒÔk¸³ÖµÎª3
 	printf("k = %d \n", k);
 
-	//è‡ªå‡çš„é“ç†ç›¸åŒï¼Œæ‡’å¾—ç»§ç»­å†™äº†
+	//×Ô¼õµÄµÀÀíÏàÍ¬£¬ÀÁµÃ¼ÌÐøÐ´ÁË
 
-	if (a == b)//æ³¨æ„=çš„æ„ä¹‰æ˜¯èµ‹å€¼ï¼Œ ==çš„æ„ä¹‰æ‰æ˜¯ç­‰äºŽ
+	if (a == b)//×¢Òâ=µÄÒâÒåÊÇ¸³Öµ£¬ ==µÄÒâÒå²ÅÊÇµÈÓÚ
 	{
-		printf("æˆ‘è‰ä½ å¦ˆ,açŽ°åœ¨ç­‰äºŽb \n");
+		printf("ÎÒ²ÝÄãÂè,aÏÖÔÚµÈÓÚb \n");
 	}
-	else//æ„ä¹‰ä¸ºå¦åˆ™
+	else//ÒâÒåÎª·ñÔò
 	{
-		printf("æˆ‘å–œæ¬¢ä½ ,açŽ°åœ¨ä¸ç­‰äºŽb \n\n");
-	}
-
-	if (a >= b )//æ­¤ä¸ºå¤§äºŽæˆ–ç­‰äºŽ 
-	{
-		printf("æˆ‘è®¨åŽŒä½ ï¼Œaæ€Žä¹ˆä¼šå¤§äºŽæˆ–è€…ç­‰äºŽb\n");
-	}
-	else
-	{
-		printf("æˆ‘å–œæ¬¢ä½ ï¼Œaå°äºŽbæ‰æ˜¯åˆç†çš„å˜›~\n");
+		printf("ÎÒÏ²»¶Äã,aÏÖÔÚ²»µÈÓÚb \n\n");
 	}
 
-	if (a <= b)//æ­¤ä¸ºå°äºŽæˆ–ç­‰äºŽ
+	if (a >= b )//´ËÎª´óÓÚ»òµÈÓÚ 
 	{
-		printf("æˆ‘å–œæ¬¢ä½ ï¼Œaå°äºŽæˆ–ç­‰äºŽb\n");
+		printf("ÎÒÌÖÑáÄã£¬aÔõÃ´»á´óÓÚ»òÕßµÈÓÚb\n");
 	}
 	else
 	{
-		printf("æˆ‘è®¨åŽŒä½ ï¼Œaæ€Žä¹ˆä¼šå¤§äºŽb\n");
+		printf("ÎÒÏ²»¶Äã£¬aÐ¡ÓÚb²ÅÊÇºÏÀíµÄÂï~\n");
 	}
 
-
-
-	if (a && b)//è¿™ä¸ªæ˜¯å¦‚æžœaä¸”bä¸ºçœŸï¼Œ"ä¸ºçœŸ"çš„æ„æ€å°±æ˜¯aå’Œbçš„å€¼ä¸ä¸º0
+	if (a <= b)//´ËÎªÐ¡ÓÚ»òµÈÓÚ
 	{
-		printf("æ¡ä»¶ä¸ºçœŸ\n");
+		printf("ÎÒÏ²»¶Äã£¬aÐ¡ÓÚ»òµÈÓÚb\n");
 	}
 	else
 	{
-		printf("æ¡ä»¶ä¸ä¸ºçœŸ\n");
-	}
-
-	if (a || b)// a || bæ˜¯aæˆ–bä¸ºçœŸçš„æ„æ€
-	{
-		printf("aæˆ–bä¸ºçœŸ\n");
+		printf("ÎÒÌÖÑáÄã£¬aÔõÃ´»á´óÓÚb\n");
 	}
 
 
-	if (!(a & b))//!()çš„æ„æ€æ˜¯éžï¼Œä¹Ÿå°±æ˜¯()é‡Œçš„å†…å®¹ä¸ä¸ºçœŸ
+
+	if (a && b)//Õâ¸öÊÇÈç¹ûaÇÒbÎªÕæ£¬"ÎªÕæ"µÄÒâË¼¾ÍÊÇaºÍbµÄÖµ²»Îª0
 	{
-		printf("æ¡ä»¶ä¸ä¸ºçœŸ\n");
+		printf("Ìõ¼þÎªÕæ\n");
+	}
+	else
+	{
+		printf("Ìõ¼þ²»ÎªÕæ\n");
+	}
+
+	if (a || b)// a || bÊÇa»òbÎªÕæµÄÒâË¼
+	{
+		printf("a»òbÎªÕæ\n");
+	}
+
+
+	if (!(a & b))//!()µÄÒâË¼ÊÇ·Ç£¬Ò²¾ÍÊÇ()ÀïµÄÄÚÈÝ²»ÎªÕæ
+	{
+		printf("Ìõ¼þ²»ÎªÕæ\n");
 	}
 
 
